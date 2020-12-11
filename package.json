@@ -1,0 +1,24 @@
+{
+  "name": "pfmbot",
+  "version": "1.0.0",
+  "description": "Another Pinning bot for discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Discord",
+    "Bot",
+    "Pin"
+  ],
+  "author": "PX Slip <dev@pxslip.com>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  },
+  "devDependencies": {
+    "husky": "^4.3.5",
+    "lint-staged": "^10.5.3",
+    "prettier": "^2.2.1"
+  }
+}
