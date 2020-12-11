@@ -8,6 +8,9 @@ client.on('ready', () => {});
 
 client.on('messageReactionAdd', (reaction, user) => {
   if (reaction.emoji.name === '📌') {
+    console.log(
+      `Pinning message ${reaction.message.content} from user ${user.username}`
+    );
     reaction.message.pin();
   }
 });
