@@ -21,4 +21,4 @@ client.on('messageReactionRemove', async (reaction, user) => {
   }
 });
 
-client.login(env.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN);
