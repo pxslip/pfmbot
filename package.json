@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Another Pinning bot for discord",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js"
   },
@@ -15,8 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "discord.js": "^12.5.1",
-    "dotenv": "^8.2.0",
-    "forever": "^3.0.4"
+    "dotenv": "^8.2.0"
   },
   "devDependencies": {
     "husky": "^4.3.5",
