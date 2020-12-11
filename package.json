@@ -4,7 +4,7 @@
   "description": "Another Pinning bot for discord",
   "main": "index.js",
   "scripts": {
-    "start": "npx forever start index.js"
+    "start": "node index.js"
   },
   "keywords": [
     "Discord",
