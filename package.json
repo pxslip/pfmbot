@@ -4,7 +4,7 @@
   "description": "Another Pinning bot for discord",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx forever start index.js"
   },
   "keywords": [
     "Discord",
@@ -15,7 +15,8 @@
   "license": "MIT",
   "dependencies": {
     "discord.js": "^12.5.1",
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "forever": "^3.0.4"
   },
   "devDependencies": {
     "husky": "^4.3.5",
