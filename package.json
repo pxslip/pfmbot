@@ -19,8 +19,8 @@
     "dotenv": "^8.2.0"
   },
   "devDependencies": {
-    "husky": "^4.3.5",
-    "lint-staged": "^10.5.3",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.1",
     "prettier": "^2.2.1"
   }
 }
